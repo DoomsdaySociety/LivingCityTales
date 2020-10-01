@@ -13,7 +13,7 @@ timezone: ''
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://example.com/child' and root as '/child/'
-url: https://doomsdaysociety.github.io/LivingCityTales/
+url: https://doomsdaysociety.github.io/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -104,5 +104,5 @@ theme: next
 ## Docs: https://hexo.io/docs/one-command-deployment
 deploy:
   type: 'git'
-  repo: 'git@github.com:DoomsdaySociety/LivingCityTales'
-  branch: 'gh-pages'
+  repo: 'git@github.com:DoomsdaySociety/doomsdaysociety.github.io'
+  branch: 'master'
